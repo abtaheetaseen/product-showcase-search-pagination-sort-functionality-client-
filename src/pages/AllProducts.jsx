@@ -26,7 +26,7 @@ const AllProducts = () => {
     const [search, setSearch] = useState("");
     const [loading, setLoading] = useState(true);
 
-    const itemsPerPage = 5;
+    const itemsPerPage = 10;
     const [currentPage, setCurrentPage] = useState(0);
     const [allProductsTotal, setAllProductsTotal] = useState("");
     const allProductsCount = allProductsTotal.totalProductsCount;
