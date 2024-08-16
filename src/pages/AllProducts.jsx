@@ -3,6 +3,8 @@ import Product from '../components/Product';
 
 const AllProducts = () => {
 
+    3
+
     const [products, setProducts] = useState([]);
 
     const [sortOrder, setSortOrder] = useState(null);
