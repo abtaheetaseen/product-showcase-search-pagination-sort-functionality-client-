@@ -3,8 +3,6 @@ import Product from '../components/Product';
 
 const AllProducts = () => {
 
-    34556789
-
     const [products, setProducts] = useState([]);
 
     const [sortOrder, setSortOrder] = useState(null);
