@@ -32,7 +32,7 @@ const AllProducts = () => {
     const allProductsCount = allProductsTotal.totalProductsCount;
 
     useEffect(() => {
-        fetch(`http://localhost:3000/products?page=${currentPage}&size=${itemsPerPage}`)
+        fetch(`https://show-case-server.vercel.app/products?page=${currentPage}&size=${itemsPerPage}`)
             .then(res => res.json())
             .then(data => {
                 setProducts(data);
@@ -41,7 +41,7 @@ const AllProducts = () => {
     }, [currentPage, itemsPerPage])
 
     useEffect(() => {
-        fetch(`http://localhost:3000/totalProductsCount`)
+        fetch(`https://show-case-server.vercel.app/totalProductsCount`)
             .then(res => res.json())
             .then(data => {
                 setAllProductsTotal(data);
