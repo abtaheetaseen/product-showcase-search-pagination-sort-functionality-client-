@@ -3,7 +3,7 @@ import Product from '../components/Product';
 
 const AllProducts = () => {
 
-    345567
+    3455678
 
     const [products, setProducts] = useState([]);
 
